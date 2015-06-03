@@ -1,0 +1,156 @@
+div.admin_check
+{
+	height:520px;
+	padding:5px;
+	background-color:#e5e5e5;
+}
+
+table.login
+{
+	border:silver solid 1px;
+	margin:200px auto;
+	background-color:white;
+	border-collapse:collapse;
+	height:80px;
+	width:250px;
+}
+
+table.login th
+{
+	background-color:#243446;
+	color:#f2a400;
+	text-align:center;
+}
+
+table.login td
+{
+	text-align:center;
+}
+
+div.admin_left ul
+{
+	list-style-type:none;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+
+div.admin_left a, div.admin_left a:visited
+{
+	color:black;
+	background-color:#cecece;
+	display:block;
+	margin:1px;
+	padding:7px 20px;
+	text-decoration:none;
+	text_align:left;
+}
+
+div.admin_left a:hover, div.admin_left a:active
+{
+	background-color:#ced1d6;
+}
+/* 등록된 상품 리스트 */
+div.menu_admin
+{
+	height:439px;
+	background-color:white;
+	padding:5px 0;
+}
+
+div.menu_admin table
+{
+	border-collapse:collapse;
+	width:100%;
+}
+
+div.menu_admin table td
+{
+	width:20%;
+	text-align:center;
+	vertical-align:middle;
+	border:gray solid 1px;
+}
+
+div.menu_admin a
+{
+	display:block;
+	text-decoration:none;
+	color:black;
+	background-color:white;
+	padding:15px 0;
+	width:100%;
+	height:100%;
+}
+
+div.menu_admin a:hover
+{
+	background-color:silver;
+}
+
+/* 상품 등록 테이블 */
+table.goods_insert
+{
+	margin:30px auto 20px;
+	border-collapse:collapse;
+	background-color:white;
+}
+table.goods_insert td
+{
+	border:silver solid 1px;
+	height:25px;
+	width:70px;
+	padding:5px;
+	text-align:center;
+}
+table.goods_insert td.h
+{
+	background-color:#cecece;
+}
+
+/* 상품 상세 보기 테이블 */
+table.goods_detail
+{
+	margin:30px auto 20px;
+	border-collapse:collapse;
+	background-color:white;
+}
+table.goods_detail td
+{
+	border:silver solid 1px;
+	height:25px;
+	width:150px;
+	padding:5px;
+}
+table.goods_detail td.h
+{
+	width:70px;
+	background-color:#cecece;
+	text-align:center;
+}
+
+
+/* 비밀변호 설정 테이블 */
+table.pwd_update
+{
+	margin:30px auto 20px;
+	border-collapse:collapse;
+	background-color:white;
+}
+table.pwd_update td
+{
+	border:silver solid 1px;
+	height:25px;
+	width:100px;
+	padding:5px;
+}
+table.pwd_update td.h
+{
+	background-color:#cecece;
+}
+
+/* 상품 삭제 경고문 */
+p.goods_delete
+{
+	margin-top:100px;
+}

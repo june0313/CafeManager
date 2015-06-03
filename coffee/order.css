@@ -1,0 +1,185 @@
+div.category
+{
+	height:40px;
+	width:705px;
+	background-color:#515f6a;
+}
+
+div.category ul
+{
+	list-style-type:none;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+
+div.category li
+{
+	float:left;
+	display:inline;	
+
+}
+
+div.category a
+{
+	display:block;
+	padding:13px 15px;
+	text-decoration:none;
+	height:14px;
+}
+
+div.category a.nonSelected
+{
+	color:white;
+	background-color:#515f6a;	
+}
+
+div.category a.Selected
+{
+	background-color:#243446;
+	color:#f2a400;
+}
+
+div.category a:hover, div.category a:active
+{
+	background-color:#243446;
+	color:#f2a400;
+}
+
+/*실시간 주문 내역*/
+div.order_table
+{
+	height:460px;
+	overflow-y:auto;
+}
+
+div.order_table table
+{
+	width:100%;
+	background-color:white;
+	border-collapse:collapse;
+}
+
+div.order_table th
+{
+	border:silver solid 1px;
+	background-color:silver;
+}
+div.order_table th.menu
+{
+	width:60%;
+}
+
+div.order_table td
+{
+	text-align:center;
+	border:silver solid 1px;
+}
+
+div.order_table a
+{
+	display:block;
+	float:right;
+	text-decoration:none;
+	color:white;
+	background-color:#515f6a;
+	padding:5px 5px;
+	margin-top:5px;
+	width:50px;
+}
+
+div.order_table a:hover
+{
+	background-color:#243446;
+	color:#f2a400;
+}
+
+/* 실시간 주문 내역의 합계 */
+
+div.print_price
+{
+	height:35px;
+	margin-top:5px;
+	text-align:right;
+	padding:10px;
+	border-top:solid gray 1px;
+}
+
+div.print_price input[type=text]
+{
+	font-size:15pt;
+	width:100px;
+	height:30px;
+	text-align:right;
+	border:silver solid 1px;
+	margin:0;
+	padding:2px;
+}
+
+/* 메뉴판 */
+div.menu
+{
+	height:410px;
+	background-color:white;
+	padding:5px 0;
+}
+
+div.menu table
+{
+	border-collapse:collapse;
+	width:100%;
+}
+
+div.menu table td
+{
+	text-align:center;
+	vertical-align:middle;
+	border:gray solid 1px;
+	width:20%;
+}
+
+div.menu a
+{
+	display:block;
+	text-decoration:none;
+	color:black;
+	background-color:white;
+	padding:15px 0;
+	width:100%;
+	height:100%;
+}
+
+div.menu a:hover
+{
+	background-color:silver;
+}
+
+div.menu_bottom
+{
+	text-align:right;
+	height:55px;
+	margin-top:5px;
+}
+
+table.how_pay
+{
+	float:right;
+	text-align:left;
+	border-collapse:collapse;
+}
+
+table.how_pay td
+{
+	
+}
+
+table.how_pay input[type=submit]
+{
+	border:0;
+	height:50px;
+	width:130px;
+	background-color:#515f6a;
+	color:white;
+}
+
+

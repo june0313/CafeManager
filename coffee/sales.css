@@ -1,0 +1,105 @@
+/* 메출 왼쪽 메뉴 */
+div.sales_left ul
+{
+	list-style-type:none;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+
+div.sales_left a, div.sales_left a:visited
+{
+	color:black;
+	background-color:#cecece;
+	display:block;
+	margin:1px;
+	padding:7px 20px;
+	text-decoration:none;
+	text_align:left;
+}
+
+div.sales_left a:hover, div.sales_left a:active
+{
+	background-color:#ced1d6;
+}
+
+/* 매출 현황(날짜별, 월별) */
+div.sales_view
+{
+	height:465px;
+	padding:5px;
+	overflow-y:auto;
+}
+
+/* 매출 현황(시간별) */
+div.sales_hour
+{
+	float:left;
+	width:350px;
+	margin-right:5px;
+}
+
+div.sales_view_hour
+{
+	height:477px;
+	padding:5px;
+	overflow-y:auto;
+	border:silver solid 1px;
+}
+
+div.detail
+{
+	float:left;
+	width:350px;
+}
+
+/* 시간별 상세 현황 */
+div.hour_detail
+{
+	border:silver solid 1px;
+	padding:5px;
+	height:215px;
+	margin-bottom:5px;
+	overflow-y:auto;
+}
+
+/* 주문별 상세 현황 */
+div.order_detail
+{
+	border:silver solid 1px;
+	padding:5px;
+	margin-top:5px;
+	height:214px;
+	overflow-y:auto;	
+}
+
+/* 매출 테이블 */
+table.sales
+{
+	width:250px;
+	border-collapse:collapse;
+	margin:0 auto;
+	background-color:white;
+}
+
+table.sales td
+{
+	border:silver solid 1px;
+	height:20px;
+	text-align:center;
+}
+
+table.sales th
+{
+	border:silver solid 1px;
+	background-color:silver;
+	height:20px;
+}
+
+table.sales a
+{
+	text-decoration:none;
+	font-weight:bold;
+	color:#5a84af;
+}
+

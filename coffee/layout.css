@@ -1,0 +1,160 @@
+
+body
+{
+	font-size:9pt;
+	background-color:#5a84af;
+	width:auto;
+}
+
+h3
+{
+	margin:0;
+	color:white;
+}
+
+.color_h1
+{
+	color:#0081ff;
+}
+
+div.container
+{
+	width:1085px;
+	padding:5px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#48698c ;
+}
+
+div.header
+{	
+	height:40px;
+	color:white;
+	font-weight:bold;
+	/*background-color:#004d99;*/
+	padding:0;
+	
+	/*background-image:url('images/title.jpg');*/
+}
+
+div.header h1
+{
+	font-size:32px;
+	color:white;
+	margin-left:10px;
+}
+
+.header a
+{
+	color:white;
+	text-decoration:none;
+}
+
+/* 메뉴바(주문, 매출 관리자) */
+div.navigation
+{
+	float:right;;
+	height:35px;
+	width:auto;
+	padding:2.5px ;
+	background-color:#e5e5e5;
+}
+
+div.navigation ul
+{
+	list-style-type:none;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+
+div.navigation li
+{
+	float:left;
+	display:inline;	
+
+}
+
+div.navigation a, div.navigation a:visited
+{
+	color:#FFFFFF;
+	background-color:#515f6a;
+	display:block;
+	text-align:center;
+	margin:2.5px;
+	padding:7px 0;
+	width:100px;
+	text-decoration:none;
+}
+
+div.navigation a:hover, .navigation a:active
+{
+	background-color:#243446;
+	color:#f2a400;
+}
+
+/* 왼쪾 컬럼 */
+div.left
+{
+	float:left;
+	width:355px;
+	height:520px;
+	padding:5px;
+	background-color:#e5e5e5;
+}
+
+/* 오른쪽 컬럼 */
+div.right
+{
+	float:left;
+	width:705px;
+	margin-left:5px;
+	height:520px;
+	background-color:#e5e5e5;
+	padding:5px;
+}
+
+div.right hr
+{
+	margin:25px 0;
+	border:0;
+	height:2px;
+	background-color:#f5bf4c;
+}
+
+div.right_bottom a:link, div.right_bottom a:visited
+{	
+	color:black;
+}
+
+div.right_bottom a:hover, div.right_bottom a:active
+{
+	color:#0081ff;
+	font-weight:bold;
+}
+
+/* 바닥 */
+div.footer
+{
+	height:30px;
+	text-align:center;
+	color:white;
+	clear:both;
+	margin-top:	5px;
+	padding:5px;	
+}
+
+div.footer p
+{
+	margin:0;
+	text-align:right;
+}
+
+/* 서브헤더 */
+div.subheader
+{
+	background-color:#243446;
+	color:#f2a400;
+	padding:5px;
+	margin-bottom:5px;
+}
